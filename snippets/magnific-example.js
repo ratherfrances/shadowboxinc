@@ -1,0 +1,3 @@
+$('a').magnificPopup({
+	type: 'image'
+});

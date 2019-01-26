@@ -1,0 +1,12 @@
+.mfp-arrow-right:before {
+	border-left-color: #f98a1e;  /* Next arrow outline color */ 
+}
+.mfp-arrow-right:after {
+	border-left-color: #f6cf70;  /* Next arrow fill color */ 
+}
+.mfp-arrow-left:before {
+	border-right-color: #f98a1e;  /* Previous arrow outline color */ 
+}
+.mfp-arrow-left:after {
+	border-right-color: #f6cf70;  /* Previous arrow fill color */ 
+}

@@ -1,0 +1,286 @@
+body {
+	background: #000 url(../img/bg-body.jpg) repeat-x center top;
+	color: #eee;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0;
+}
+img {
+	border: 0;
+	vertical-align: bottom;
+}
+#wrapper {
+	background: url(../img/bg-wrapper.png) repeat-y center top;
+}
+#header {
+	background: url(../img/bg-header.jpg) no-repeat;
+	width: 758px;
+	height: 225px;
+	position: relative;
+	border: 0 1px solid #111;
+	margin: auto;
+}
+#logo {
+	background: url(../img/jf-logo.png);
+	width: 263px;
+	height: 225px;
+	position: absolute;
+	left: -43px;
+	top: 1px;
+	text-indent: -9000px;
+}
+#headerDetails {
+	background: url(../img/header-address-hours.png);
+	height: 16px;
+	width: 523px;
+	position: absolute;
+	bottom: 27px;
+	right: 12px;
+	text-indent: -9000px;
+}
+#contentWrapper {
+	position: relative;
+	width: 742px;
+	background: #333;
+	border: 0 1px solid #111;
+	margin: auto;
+	padding-right: 8px;
+	padding-bottom: 10px;
+	padding-left: 8px;
+	overflow: hidden;
+}
+#contentWrapper p {
+	line-height: 18px;
+}
+#contentMenu {
+	width: 700px;
+	height: 35px;
+	margin: 0px;
+	list-style: none;
+	padding-top: 20px;
+	padding-bottom: 11px;
+	padding-left: 12px;
+}
+#contentMenu li {
+	float: left;
+}
+#content {
+	float: left;
+	width: 530px;
+	position: relative;
+	margin-top: -12px;
+	padding-right: 9px;
+}
+#content h3 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFF;
+	margin: 5px 0px;
+	clear: both;
+}
+#contentPanel {
+	clear: both;
+}
+#contentPanel p {
+	padding: 0 20px 0 2px;
+}
+#contentPanel #featuredShows {
+	width: 530px;
+	border: 1px solid #111;
+}
+#contentPanel #gallery {
+	position: relative;
+	width: 483px;
+	margin-top: -11px;
+	margin-right: 25px;
+	margin-left: 25px;
+	text-align: center;
+}
+.mfp-title {
+	padding-right:0;
+	text-align: center;
+	color: #f6cf70;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.mfp-bg {
+	background: #333;
+}
+.mfp-close {
+	color:#f6cf70;
+}
+
+.mfp-image-holder .mfp-close {
+	color: #f6cf70;
+}
+
+#contentPanel #gallery a {
+	margin: 9px;
+	float: left;
+	border: 1px solid #000;
+	outline: 0 solid #ffcf60;
+}
+.subColumn {
+	background: #222;
+	border: 1px solid #111;
+	display: inline;
+	float: left;
+	height: 260px;
+	overflow: hidden;
+	width: 259px;
+	margin-right: 9px;
+	margin-top: 9px;
+}
+#subContent1 {
+	clear: both;
+}
+#subContent2 .textSlider {
+	background: url(../img/bg-slider.jpg) no-repeat center center;
+	height: 260px;
+	width: 260px;
+}
+.mfp-arrow-right:before {
+	border-left-color: #f98a1e;  /* Next arrow outline color */
+}
+.mfp-arrow-right:after {
+	border-left-color: #f6cf70;  /* Next arrow fill color */
+}
+.mfp-arrow-left:before {
+	border-right-color: #f98a1e;  /* Previous arrow outline color */
+}
+.mfp-arrow-left:after {
+	border-right-color: #f6cf70;  /* Previous arrow fill color */
+}
+#subContent2 p {
+	padding: 0 10px;
+	margin-top: 4px;
+}
+#subContent2 h3 {
+	background: url(../img/ad-sliderheader.jpg);
+	text-indent: -9000px;
+	height: 35px;
+	margin: 0 auto;
+}
+#subContent2 .textSlider #theJive {
+	background-position: center -1px;
+}
+#subContent2 .textSlider #philosophy {
+	background-position: center -41px;
+}
+#subContent3 {
+	width: 198px;
+	margin-right: 0px;
+}
+#footer {
+	background: #1d1d1d url(../img/bg-footer.jpg) no-repeat top center;
+	color: #999;
+	clear: both;
+	text-align: center;
+	width: 738px;
+	height: 150px;
+	padding: 10px;
+	margin: auto;
+	border: 1px solid #111;
+	border-bottom: 0;
+}
+#contentMenu li a {
+	background: url(../img/content-menu-text.png) no-repeat;
+	text-indent: -9000px;
+	display: block;
+	height: 23px;
+	margin-right: 10px;
+}
+#contentMenu li a:hover, #contentMenu li a:focus {
+	outline: none;
+}
+#contentMenu li #happening {
+	width: 190px;
+	background-position: 0 -46px;
+}
+#contentMenu li #happening:hover, #contentMenu li #happening:focus {
+	background-position: 0 -23px;
+}
+#contentMenu li #happening.activeContent {
+	background-position: 0 0px;
+}
+#contentMenu li #menu {
+	width: 193px;
+	background-position: -190px -46px;
+}
+#contentMenu li #menu:hover, #contentMenu li #menu:focus {
+	background-position: -190px -23px;
+}
+#contentMenu li #menu.activeContent {
+	background-position: -190px 0px;
+}
+#contentMenu li #directions {
+	width: 102px;
+	background-position: -383px -46px;
+}
+#contentMenu li #directions:hover, #contentMenu li #directions:focus {
+	background-position: -383px -23px;
+}
+#contentMenu li #directions.activeContent {
+	background-position: -383px 0px;
+}
+#accordionNav {
+	float: right;
+	width: 199px;
+	background: #333;
+	border: 1px solid #111;
+	margin-top: -57px;
+}
+#accordionNav h3 {
+	font-size: 14px;
+	margin: 0;
+}
+#accordionNav img {
+	padding-bottom: 8px;
+}
+#accordionNav a {
+	color: #eee;
+	text-decoration: none;
+	display: block;
+	padding: 5px 8px;
+	outline: none;
+}
+#accordionNav a:hover {
+	color: #ffcf60;
+}
+.accordion {
+	overflow: hidden;
+	outline: none;
+}
+.accordionPanel {
+	margin: 0px;
+	padding: 0px;
+}
+.accordionPanelTab {
+	background-color: #555;
+	background-image: url('../img/stripes.png');
+	margin: 0;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	color: #fff;
+	height: 35px;
+	line-height: 35px;
+	font-size: 18px;
+	text-align: center;
+}
+.accordionPanelTab:hover {
+	color: gold;
+}
+.accordionPanelContent {
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	height: 315px;
+	background: url(../img/bg-accordion.jpg);
+}
+.highlight {
+	color: gold;
+	background-color: #999;
+}

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>The Jive Factory - Home</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<a href="index.html">
+			<div id="logo">
+				<h1>The Jive Factory</h1>
+			</div>
+		</a>
+		<div id="headerDetails">580 Lispenard St. New York, NY 10013 Open 4pm–4am Every Day</div>
+	</div>
+	<div id="contentWrapper">    
+		<ul id="contentMenu">
+			<li><a href="#" id="happening" class="activeContent">What’s Happening?</a></li>
+			<li><a href="#" id="menu">Kitchen & Bar Menu</a></li>
+			<li><a href="#" id="directions">Directions</a></li>
+		</ul>
+		<div id="accordionNav">
+			<div class="accordionPanel">
+				<div class="accordionPanelTab highlight" id="eventsWeekTab" onClick="showEventsWeek()">Events This Week</div>
+				<div class="accordionPanelContent" id="eventsWeekContent">
+					<a href="#">
+						<img src="img/thumb-fpcp.jpg" width="180" height="140">
+						<h3>Mon: Fancy Pants and the Cellphones</h3>
+					</a>
+					<a href="#"><h3>Tue: The Wartimes</h3></a>
+					<a href="#"><h3>Wed: New York On Bikes</h3></a>
+					<a href="#"><h3>Thu: Gerry and the Atrics</h3></a>
+					<a href="#"><h3>Fri: Low Lustre</h3></a>
+				</div>
+			</div>
+			<div class="accordionPanel">
+				<div class="accordionPanelTab" id="comingUpTab" onClick="showComingUp()">Coming Up</div>
+				<div class="accordionPanelContent" id="comingUpContent">
+					<a href="#" class="eventContent">
+						<img src="img/thumb-woof.jpg" width="180" height="140">
+						<h3>8/10 Woofing Cookies</h3>
+					</a>
+					<a href="#"><h3>8/12 The Stomps!</h3></a>
+					<a href="#"><h3>8/18 Jimmy and the Lads</h3></a>
+					<a href="#"><h3>8/20 Lady Liberties</h3></a>
+					<a href="#"><h3>8/23 California Wine</h3></a>
+				</div>
+			</div>
+			<div class="accordionPanel">
+				<div class="accordionPanelTab" id="pastEventsTab" onClick="showPastEvents()">Past Events</div>
+				<div class="accordionPanelContent" id="pastEventsContent">
+					<a href="photo-bugs.html">
+						<img src="img/thumb-bugs.jpg" width="180" height="140">
+						<h3>Lightning Bug</h3>
+					</a>
+					<a href="#"><h3>Small Business System</h3></a>
+					<a href="#"><h3>The Clash at Demonhead</h3></a>
+					<a href="#"><h3>Finneas Finnegan</h3></a>
+					<a href="#"><h3>My Flying Car Is Broken</h3></a>
+				</div>
+			</div>
+		</div>
+		<div id="content">
+			<div id="contentPanel">
+				<div id="featuredShows"> <img src="img/scroll-lustre.jpg" width="530" height="375"></div>
+			</div>
+		</div>
+		<div id="subContent1" class="subColumn">
+			<img src="img/ad-tshirt.jpg">
+			<img src="img/ad-happy.jpg">
+			<img src="img/ad-reserve.jpg">
+		</div>
+		<div id="subContent2" class="subColumn">
+			<div class="textSlider">
+				<h3 id="theJive">What’s the Jive About?</h3>
+				<p>The Jive Factory is a restaurant and venue in Lower Manhattan, dedicated to the best food and music the city has to offer. Stop in for dinner, stick around for a drink, and see the greatest up-and-coming acts in a small and friendly performance space.</p>
+				<p>We have a dining room and a full bar on the ground floor, and a large concert space downstairs with a stage, open standing room, and a second bar in the back.</p>
+			</div>
+			<div class="textSlider">
+				<h3 id="philosophy">Our Philosophy</h3>
+				<p>Good food, good drinks and good music will solve 90% of your everyday problems. And even if they don’t, you’ll still at least feel better about them.</p>
+			</div>
+		</div>
+		<div id="subContent3" class="subColumn">
+			<img src="img/ad-prem.jpg">
+			<img src="img/ad-bands.jpg">
+		</div>
+	</div>
+	<div id="footer">All content © The Jive Factory. Information on this website is subject to change without notice.</div>
+</div>
+<script src="js/vendor/jquery-2.1.0.min.js"></script>
+<script src="js/vendor/jquery.easing.1.3.js"></script>
+<script src="js/main.js"></script> 
+</body>
+</html>
